@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css tutorial 2</title>
+    <style>
+        article p:last-of-type {
+            color: red;
+            font-size: 1.5em;
+        }
+        *{
+            color: rgb(220, 64, 116);
+          }   
+
+          
+          .section{
+           
+            padding: 2em;
+          }
+
+          #rad{
+            border: 2px solid blue;
+          }
+
+          [data-type]{
+            color: brown;
+          }
+
+          /* [data-type="primary"]{
+            color: rgb(27, 243, 243);
+          }
+
+          [data-type="secondary"]{
+            color: rgb(203, 18, 120);
+          } */
+
+          grouping selector
+         .my-element::before{
+            content: 'prefix';
+         }
+         .my-element::after{
+            content: 'prefix';
+         }
+         
+
+
+ 
+    
+         
+             
+    </style>
+
+</head>
+
+<body>
+    <!-- <article>
+        <p> i want to be red and larger than the other text.</p>
+        <p> i want to be normal sized and the default color.</p>
+    </article> -->
+
+    <!-- universal selector -->
+
+    
+        <!-- <p>hello world!</p> -->
+
+
+     <!-- class selector
+
+        <div class="My class">My class</div>
+        <button class="button">Button</button>
+        <p class="My class">My class</p> -->
+
+        id selector
+
+        <!-- <div id="rad">rad</div> -->
+
+        Attribute selector
+
+        <div data-type="primary">primary</div>
+         <div data-type="Secondary">Secondary</div>
+         <h1>hello</h1>
+
+</body>
+
+</html>
